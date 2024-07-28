@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ASCII Art Web Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Generate ASCII Art</h1>
+        <div class="layout">
+            <div class="form-container">
+                <form action="/ascii-art" method="post">
+                    <div class="input-group">
+                        <span class="label-text">Text:</span>
+                        <textarea id="text" name="text" rows="4" cols="50" ></textarea>
+                    </div>
+                    <label for="banner">Banner:</label>
+                    <select id="banner" name="banner">
+                        <option value="standard">Standard</option>
+                        <option value="shadow">Shadow</option>
+                        <option value="thinkertoy">Thinkertoy</option>
+                    </select><br>
+                    <button type="submit">Generate</button>
+                </form>
+            </div>
+            <div class="result-container">
+                <label for="result">Result:</label>
+                <textarea id="result" name="result" rows="20" cols="50" readonly>{{.Result}}</textarea>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
