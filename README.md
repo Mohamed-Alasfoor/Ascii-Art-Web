@@ -20,4 +20,4 @@ technologies used: Golang, HTML/CSS.
   ## Authors
   
   - [Mohamed Alasfoor](https://github.com/Mohamed-Alasfoor)
-  - {Zainab Nasser}(https://github.com/zainab49)
+  - [Zainab Nasser](https://github.com/zainab49)
